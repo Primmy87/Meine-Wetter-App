@@ -5,13 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meine-Wetter-App</title>
 </head>
-<body>
- <h1>Welcome to Meine-Wetter-App</h1>  
+<body>  
+    <div class="weather-app">
+        <header>
+          <form class="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              required
+              class="search-form-input"
+            />
+            <input type="submit" value="Search" class="search-form-button" />
+          </form>
+        </header>
+        <main>
+          <div class="weather-app-data">
+            <div>
+              <h1 class="weather-app-city">Harare</h1>
+              <p class="weather-app-details">
+                Tuesday 13:52, scattered clouds
+                <br />
+                Humidity: <strong>68%</strong>, Wind: <strong>4.13km/h</strong>
+              </p>
+            </div>
+            <div class="weather-app-temperature-container">
+              <div class="weather-app-icon">🌤️</div>
+              <div class="weather-app-temperature">12</div>
+              <div class="weather-app-unit">°C</div>
+            </div>
+          </div>
+        </main>
+
  <footer>Coded by 
-    <a href= "https://github.com/Primmy87"target="_blank"> Primrose Ncube</a>code hosted on 
-    <a href="https://github.com/Primmy87/Meine-Wetter-App"target="_blank">github</a> and website hosted
-    <a href="https://meine-wetter-shecodesapp.netlify.app/"target="_blank">on Netlify</a>
+    <a href= "https://github.com/Primmy87"target="_blank"> Primrose Ncube</a> Code hosted on 
+    <a href="https://github.com/Primmy87/Meine-Wetter-App"target="_blank"> Github</a> and website hosted
+    <a href="https://meine-wetter-shecodesapp.netlify.app/"target="_blank"> on Netlify</a>
 
     </footer> 
+</div>
 </body>
 </html>
